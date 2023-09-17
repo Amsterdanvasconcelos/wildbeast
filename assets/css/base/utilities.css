@@ -1,0 +1,15 @@
+.u-col-wide {
+    grid-column: 1 / -1;
+} 
+
+.u-span-2 {
+    grid-row: span 2;
+}
+
+.u-self-end {
+    align-self: end;
+}
+
+.u-full-width {
+    width: 100%;
+}

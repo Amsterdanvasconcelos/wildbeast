@@ -5,4 +5,7 @@
     'header   header  header'
     'sidenav  main    advertising'
     'footer   footer  footer';
+
+    margin: 0 auto;
+    max-width: 1600px;
 }

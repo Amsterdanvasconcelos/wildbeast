@@ -1,0 +1,14 @@
+.c-attributes {
+    align-self: start;
+}
+
+.c-attributes__item {    
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.125rem;
+    padding: 15px;
+}
+
+.c-attributes__item + .c-attributes__item {
+    border-top: 2px solid var(--clr-purple-light);
+}

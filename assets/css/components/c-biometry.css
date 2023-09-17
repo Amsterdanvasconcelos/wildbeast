@@ -1,0 +1,29 @@
+.c-biometry {
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+
+.c-biometry__content {
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(44, 44, 44, .15);
+    background: var(--clr-bg-gradient);
+    overflow: hidden;
+    width: 80px;
+    text-align: center;
+}
+
+.c-biometry__number {
+    margin: 10px auto;
+    color: var(--clr-purple-light);
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.c-biometry__unit {
+    display: block;
+    padding: 5px 0;
+    margin-top: 5px;
+    background-color: white;
+    color: var(--clr-purple-light);
+}

@@ -1,4 +1,7 @@
 :root {
     --clr-purple-dark: #8844ee;
     --clr-purple-light: #b07dfb;
+
+    --clr-bg-white: #fafbfc;
+    --clr-bg-gradient: linear-gradient(135deg, var(--clr-purple-dark), var(--clr-purple-light));
 }

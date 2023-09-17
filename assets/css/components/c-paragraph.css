@@ -1,0 +1,12 @@
+.c-paragraph {
+    color: rgba(0, 0, 0, .7);
+    font-size: 1.2rem;
+    line-height: 1.6;
+    letter-spacing: -0.005rem;
+}
+
+.c-paragraph--small-purple {
+    max-width: 16rem;
+    color: var(--clr-purple-light);
+    font-size: 1rem;
+}

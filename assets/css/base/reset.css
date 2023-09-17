@@ -10,5 +10,7 @@
 }
 
 img {
+    display: block;
+    border-radius: 5px;
     max-width: 100%;
 }

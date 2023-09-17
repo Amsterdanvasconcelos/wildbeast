@@ -1,0 +1,14 @@
+.c-title-content {
+    color: var(--clr-purple-light);
+}
+
+.c-title-content__title {
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.c-title-content__subtitle {
+    font-size: .875rem;
+    font-style: italic;
+}

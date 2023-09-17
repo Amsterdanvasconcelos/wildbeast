@@ -12,3 +12,9 @@
     font-size: .875rem;
     font-style: italic;
 }
+
+@media (max-width: 500px) {
+    .c-title-content__title {
+        font-size: 2.75rem;
+    }
+}

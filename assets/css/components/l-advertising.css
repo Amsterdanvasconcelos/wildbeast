@@ -6,3 +6,10 @@
     gap: 30px;
     padding: 30px;
 }
+
+@media (max-width: 1200px) {
+    .l-advertising {
+        display: flex;
+        padding-top: 0;
+    }
+}

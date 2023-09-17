@@ -9,11 +9,21 @@
     border-radius: 5px;
     background-color: rgba(0, 0, 0, .1);
     color: white;
-    font-size: 18px;
+    font-size: 1.125rem;
 
     transition: 200ms;
 }
 
 .c-nav-maim__link:hover {
     background-color: rgba(0, 0, 0, .5);
+}
+
+@media (max-width: 750px) {
+    .c-nav-maim__list {
+        gap: 10px;
+    }
+    
+    .c-nav-maim__link {
+        font-size: 1rem;
+    }
 }

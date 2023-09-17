@@ -12,3 +12,10 @@
 .l-header__logo {
     max-width: 200px;
 }
+
+@media (max-width: 750px) {
+    .l-header {
+        grid-template-columns: auto;
+        gap: 30px;
+    }
+}

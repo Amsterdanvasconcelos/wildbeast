@@ -1,0 +1,14 @@
+.l-header {
+    grid-area: header;
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+
+    padding: 30px;
+    background: linear-gradient(135deg, var(--clr-purple-dark), var(--clr-purple-light));
+}
+
+.l-header__logo {
+    max-width: 200px;
+}

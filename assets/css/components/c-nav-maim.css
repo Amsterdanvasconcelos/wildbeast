@@ -1,0 +1,19 @@
+.c-nav-maim__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.c-nav-maim__link {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .1);
+    color: white;
+    font-size: 18px;
+
+    transition: 200ms;
+}
+
+.c-nav-maim__link:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
